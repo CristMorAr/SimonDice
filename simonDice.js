@@ -203,11 +203,8 @@ class Juego{
         }
 
                 ganoJuego(){
-                  swal('Simon Dice', 'Ganaste una empanada virtual!','success' )
-                  document.getElementById("empanadaVirtual")
-                  .then(() => {
-                    setTimeout(this.inicializar, 10000)
-                  })
+                  swal('Simon Dice', 'Ganaste!','success' )
+                    this.inicializar
                 }
 
 
