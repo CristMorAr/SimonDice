@@ -1,0 +1,220 @@
+body {
+  margin: 0;
+  background:lightgreen url("rainbowoods.jpg") no-repeat ;
+  background-size: cover;
+  display: relative;
+  align-items: center;
+  height: 100vh;
+}
+
+.gameboard {
+  height: 200vh;
+  width: 200vh;
+  border-radius: 25%;
+  overflow: hidden;
+  margin:  auto;
+  margin-top: 50px;
+  margin-left: 600px;
+  display: inline-flex;
+  position: absolute;
+  max-height: 60vh;
+  max-width: 100vh;
+}
+
+.color {
+  width: 100%;
+  height: 100%;
+  display: inline-grid;
+}
+
+.left {
+  float: left;
+}
+
+.top {
+  float: top;
+}
+
+.bottom {
+  float: bottom;
+}
+
+.center {
+  float: center;
+}
+
+.right {
+  float: left;
+}
+
+.celeste {
+  background: #22a6b3;
+}
+
+.celeste.light {
+  background: #7ed6df;
+}
+
+.violeta {
+  background: #be2edd;
+}
+
+.violeta.light {
+  background: #e056fd;
+}
+
+.naranja {
+  background: #B45F04;
+}
+
+.naranja.light {
+  background: #ffbe76;
+}
+
+.verde {
+  background: #5FB404;
+}
+
+.verde.light {
+  background: #BCF5A9;
+}
+
+.rojo {
+  background: #FF0000;
+}
+
+.rojo.light {
+  background: #F5A9A9;
+}
+
+.amarillo {
+  background: #FFBF00;
+}
+
+.amarillo.light {
+  background: #F2F5A9;
+}
+
+.btn-start {
+  margin: 0 auto;
+  width: 400px;
+  height: 200px;
+  border-radius: 80%;
+  background: #1C1C1C;
+  color: #FFFFFF;
+  font-size: 3.5rem;
+  position: absolute;
+  max-height: 60vh;
+  max-width: 60vh;
+  top: calc(50% - 100px);
+  left: calc(50% - 200px);
+}
+
+.tableroPuntos {
+  margin:auto;
+  margin-top: 20px;
+  margin-left: 50px;
+  border-radius: 5%;
+  width: 400px;
+  height: 550px;
+  background: #1C1C1C;
+  position: absolute;
+  max-height: 1000vh;
+  max-width: 1000vh;
+}
+.espacio {
+  width: 100%;
+  height: 35%;
+  display: inline-flex;
+}
+
+.nombre{
+  text-indent: 100mm;
+  text-indent: 80px;
+  font-style: oblique;
+  font-size: 50px;
+  color: #CEECF5;
+  position: flex;
+  top: calc(50% - 100px);
+  left: calc(50% - 200px);
+}
+
+.nivel{
+  text-indent: 100mm;
+  text-indent: 80px;
+  font-style: oblique;
+  font-size: 50px;
+  color: #CEECF5;
+  position: flex;
+  top: calc(50% - 100px);
+  left: calc(50% - 200px);
+  }
+
+  .temporizador{
+    text-indent: 100mm;
+    text-indent: 80px;
+    font-style: oblique;
+    font-size: 40px;
+    color: #CEECF5;
+    position: flex;
+    top: calc(50% - 100px);
+    left: calc(50% - 200px);
+    }
+
+    .titulo {
+      margin:0 auto;
+      margin-top: 50px;
+      margin-left: 600px;
+      border-radius: 5%;
+      text-indent: 100mm;
+      text-indent: 120px;
+      font-style: italic;
+      font-size: 70px;
+      color: #CEECF5;
+      width: 650px;
+      height: 90px;
+      background: #1C1C1C;
+      position: flex;
+      max-height: 700vh;
+      max-width: 700vh;
+
+    }
+    .footer {
+      margin:0 auto;
+      margin-top: 530px;
+      margin-left: 350px;
+      border-radius: 5%;
+      text-indent: 100mm;
+      text-indent: 170px;
+      text-align: 100%;
+      font-style: normal;
+      font-size: 25px;
+      color: #070719;
+      width: 950px;
+      height: 60px;
+      background: transparent;
+      position: absolute;
+      max-height: 1000vh;
+      max-width: 1000vh;
+
+    }
+
+    .platzi {
+      margin:0 auto;
+      margin-top: -80px;
+      margin-left: 700px;
+      background-image: url("platzi.jpg") ;
+      background-size: cover;
+      width: 60px;
+      height: 60px;
+      position: absolute;
+
+    }
+
+.hide {
+  display: none;
+}
+
+  *{
+  font-family: "Gill Sans", sans-serif;
+  }
